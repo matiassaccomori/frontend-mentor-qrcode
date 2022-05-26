@@ -1,0 +1,43 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+
+body {
+    font-size: 15px;
+    font-family: Outfit;
+}
+
+:root {
+ --col-white: hsl(0, 0%, 100%);
+ --col-light-gray: hsl(212, 45%, 89%);
+ --col-grayish-blue: hsl(220, 15%, 55%);
+ --col-dark-blue: hsl(218, 44%, 22%);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 15rem;
+    height: 15rem;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--col-dark-blue);
+}
+
+h4 {
+    font-weight: 400;
+    color: var(--col-grayish-blue);
+}
