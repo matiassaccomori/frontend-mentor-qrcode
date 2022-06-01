@@ -21,9 +21,9 @@ body {
  --col-dark-blue: hsl(218, 44%, 22%);
 }
 
-div {
-    display: flex;
-    align-items: center;
+center {
+    position: absolute;
+    text-align: center;
     flex-direction: column;
 }
 
