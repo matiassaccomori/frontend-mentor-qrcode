@@ -1,44 +1,56 @@
-/* # Front-end Style Guide
+:root {
+    --col-white: hsl(0, 0%, 100%);
+    --col-light-gray: hsl(212, 45%, 89%);
+    --col-grayish-blue: hsl(220, 15%, 55%);
+    --col-dark-blue: hsl(218, 44%, 22%);
+}
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
 body {
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
     font-family: Outfit;
+    background: var(--col-light-gray);
+    overflow: hidden;
 }
 
-:root {
- --col-white: hsl(0, 0%, 100%);
- --col-light-gray: hsl(212, 45%, 89%);
- --col-grayish-blue: hsl(220, 15%, 55%);
- --col-dark-blue: hsl(218, 44%, 22%);
+.container {    
+    width: 20rem;   
 }
 
-center {
-    position: absolute;
+.card {
     text-align: center;
-    flex-direction: column;
-    border: 1px solid var(--col-light-gray);
+    background: var(--col-white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.image {
+    display: block;
+    padding-bottom: 1rem;
 }
 
 img {
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;    
+    border-radius: 1rem;
 }
 
-h1 {
+.title {
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--col-dark-blue);
 }
 
-h4 {
+p {
+    font-size: 1rem;
     font-weight: 400;
     color: var(--col-grayish-blue);
 }
